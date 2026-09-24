@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family:
+    Arial,
+    Helvetica,
+    sans-serif;
+
+  background: #f4faf6;
+  color: #111;
+}
+
+button {
+  font-family: inherit;
+}
+
+button:focus-visible {
+  outline: 3px solid #8bcf9f;
+  outline-offset: 2px;
+}
